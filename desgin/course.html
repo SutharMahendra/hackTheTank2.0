@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Course</title>
+  </head>
+  <body>
+    <h1>Course: Introduction to Web Development</h1>
+
+    <div class="lesson">
+      <h2>Lesson 1:</h2>
+      <video width="640" height="480" controls id="video1">
+        <source src="../images/video1.mp4" type="video/mp4" />
+      </video>
+      <input type="checkbox" id="checkbox1" disabled />
+      <label for="checkbox1">Completed</label>
+    </div>
+
+    <div class="lesson">
+      <h2>Lesson 2:</h2>
+      <video width="640" height="480" controls id="video2">
+        <source src="../images/video1.mp4" type="video/mp4" />
+      </video>
+      <input type="checkbox" id="checkbox2" disabled />
+      <label for="checkbox2">Completed</label>
+    </div>
+
+    <div class="lesson">
+      <h2>Lesson 3:</h2>
+      <video width="640" height="480" controls id="video3">
+        <source src="../images/four.mp4" type="video/mp4" />
+      </video>
+      <input type="checkbox" id="checkbox3" disabled />
+      <label for="checkbox3">Completed</label>
+    </div>
+
+    <div class="lesson">
+      <h2>Lesson 4:</h2>
+      <video width="640" height="480" controls id="video4">
+        <source src="../images/four.mp4" type="video/mp4" />
+      </video>
+      <input type="checkbox" id="checkbox3" disabled />
+      <label for="checkbox4">Completed</label>
+    </div>
+
+    <button id="certificateBtn" disabled>Get Course Certificate</button>
+
+    <script>
+      const video1 = document.getElementById("video1");
+      const video2 = document.getElementById("video2");
+      const video3 = document.getElementById("video3");
+      const video4 = document.getElementById("video4");
+
+      const checkbox1 = document.getElementById("checkbox1");
+      const checkbox2 = document.getElementById("checkbox2");
+      const checkbox3 = document.getElementById("checkbox3");
+      const checkbox4 = document.getElementById("checkbox4");
+
+      const certificateBtn = document.getElementById("certificateBtn");
+
+      video1.addEventListener("ended", () => {
+        checkbox1.checked = true;
+        checkCompletion();
+      });
+
+      video2.addEventListener("ended", () => {
+        checkbox2.checked = true;
+        checkCompletion();
+      });
+
+      video3.addEventListener("ended", () => {
+        checkbox3.checked = true;
+        checkCompletion();
+      });
+
+      function checkCompletion() {
+        if (checkbox1.checked && checkbox2.checked) {
+          certificateBtn.disabled = false;
+        }
+      }
+    </script>
+  </body>
+</html>
