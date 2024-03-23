@@ -1,0 +1,154 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hi", "hey", "hello", "howdy"],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I help you with?",
+        "Hey! Welcome to Raja-Rani Coaching. How can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you later", "farewell"],
+      "responses": [
+        "Goodbye! Feel free to reach out anytime if you need further assistance.",
+        "Bye! Have a great day!",
+        "Farewell! Don't hesitate to come back if you have more questions."
+      ]
+    },
+    {
+      "tag": "course_types",
+      "patterns": [
+        "What types of courses are available?",
+        "Tell me about the courses",
+        "What courses do you offer?"
+      ],
+      "responses": [
+        "Raja-Rani Coaching offers diverse sewing courses from basic stitching to advanced garment making. We also provide specialized workshops in katori blouse design, western wear, and kid's apparel.",
+        "Our courses cover a wide range, including basic stitching, advanced garment making, and specialized workshops like katori blouse design, western wear, and kid's apparel."
+      ]
+    },
+    {
+      "tag": "course_pricing",
+      "patterns": [
+        "What are the prices of the courses?",
+        "How much do the courses cost?",
+        "Are there any discounts available?"
+      ],
+      "responses": [
+        "The price of our courses varies depending on the level and duration. Could you please specify which course you're interested in, so I can provide you with the accurate pricing details?",
+        "Our course prices vary based on factors like level, duration, and any ongoing promotions. Please specify the course you're interested in for detailed pricing information."
+      ]
+    },
+    {
+      "tag": "course_duration",
+      "patterns": [
+        "How long do the courses last?",
+        "What is the duration of the courses?",
+        "How much time do I need to complete a course?"
+      ],
+      "responses": [
+        "Our courses vary in duration. Basic courses typically last a few weeks, while advanced courses may span several months. For specific durations, please specify the course you're interested in.",
+        "The duration of our courses varies depending on the complexity and level. Some courses may last a few weeks, while others may take several months to complete."
+      ]
+    },
+    {
+      "tag": "registration_process",
+      "patterns": [
+        "How do I register for a course?",
+        "What is the registration process?",
+        "Where can I enroll in a course?"
+      ],
+      "responses": [
+        "Registration options include our website or direct contact via phone or email. Details are available on our course pages.",
+        "To register for a course, you can visit our website or contact us directly through phone or email. Our team will guide you through the registration process."
+      ]
+    },
+    {
+      "tag": "prerequisites",
+      "patterns": [
+        "Are there any prerequisites for enrolling in advanced courses?",
+        "What skills do I need for advanced courses?",
+        "Do I need sewing experience for advanced courses?"
+      ],
+      "responses": [
+        "Some advanced courses may require basic sewing skills. We recommend checking the specific course requirements before enrolling.",
+        "While some advanced courses may have prerequisites like basic sewing skills, others may be suitable for beginners. Please review the course descriptions for detailed requirements."
+      ]
+    },
+    {
+      "tag": "certificate_availability",
+      "patterns": [
+        "Do I get a certificate upon course completion?",
+        "Are certificates provided after finishing a course?",
+        "Can I receive a certificate?"
+      ],
+      "responses": [
+        "Yes, upon successful completion of our courses, we provide certificates to acknowledge your achievement.",
+        "Certificates are awarded upon successful completion of our courses, validating your skills and expertise."
+      ]
+    },
+    {
+      "tag": "support_after_completion",
+      "patterns": [
+        "Is there support available after completing a course?",
+        "How can I get help after finishing a course?",
+        "Do you offer post-course support?"
+      ],
+      "responses": [
+        "Yes, we offer post-course support. Students can reach out via WhatsApp for any queries or join our live doubt-clearing sessions.",
+        "Our support doesn't end with the course completion. You can access post-course support via WhatsApp or participate in our live doubt-clearing sessions."
+      ]
+    },
+    {
+      "tag": "live_sessions_and_workshops",
+      "patterns": [
+        "Do courses include live sessions or workshops?",
+        "Are there any interactive sessions in the courses?",
+        "Can I participate in live workshops?"
+      ],
+      "responses": [
+        "Yes, some of our courses include live sessions or workshops to enhance the learning experience.",
+        "Live sessions and workshops are available in select courses, providing interactive learning opportunities."
+      ]
+    },
+    {
+      "tag": "multi_device_access",
+      "patterns": [
+        "Can I access course materials on multiple devices?",
+        "Is the platform accessible from different devices?",
+        "Can I use the app on my phone and computer?"
+      ],
+      "responses": [
+        "Yes, you can access course materials on multiple devices. Simply log in with your account credentials, and you'll have access across all your devices.",
+        "Our platform is designed for multi-device access, allowing you to learn seamlessly across different devices."
+      ]
+    },
+    {
+      "tag": "course_details",
+      "patterns": [
+        "Tell me more about Raja-Rani Coaching courses",
+        "What can I expect from your courses?",
+        "Give me details about the courses"
+      ],
+      "responses": [
+        "In our hands-on classes, you'll learn essential techniques and gain the confidence to turn your creative visions into reality.",
+        "Our courses offer a comprehensive learning experience, covering everything from basic stitching to advanced garment making."
+      ]
+    },
+    {
+      "tag": "discounts_and_promotions",
+      "patterns": [
+        "Do you offer any discounts or promotions?",
+        "Are there any special offers available?",
+        "Can I get a discount on course fees?"
+      ],
+      "responses": [
+        "Occasional discounts and special promotions are available. Stay updated by following us on social media or subscribing to our newsletter.",
+        "We regularly offer discounts and special promotions on our courses. Follow us on social media or subscribe to our newsletter to stay informed."
+      ]
+    }
+  ]
+}
